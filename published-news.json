@@ -1,4 +1,12 @@
 {
-  "published": [],
-  "lastUpdated": "2026-01-28T15:10:00Z"
+  "published": [
+    {
+      "date": "2026-01-28",
+      "slug": "pets-locally-launches",
+      "title": "Pets Locally Launches: Your New Guide to UK Pet Services",
+      "source": "petslocally.co.uk",
+      "keywords": ["launch", "announcement", "pet services"]
+    }
+  ],
+  "lastUpdated": "2026-01-28T15:15:00Z"
 }

@@ -1,4 +1,12 @@
 {
-  "published": [],
-  "lastUpdated": "2026-01-28T15:10:00Z"
+  "published": [
+    {
+      "date": "2026-01-28",
+      "slug": "welcome-to-pets-locally",
+      "title": "Welcome to Pets Locally",
+      "keyword": "pets locally blog",
+      "category": "Announcements"
+    }
+  ],
+  "lastUpdated": "2026-01-28T15:15:00Z"
 }
