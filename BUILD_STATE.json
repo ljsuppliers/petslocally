@@ -1,0 +1,17 @@
+{
+  "site_id": "petslocally",
+  "domain": "petslocally.co.uk",
+  "phases": {
+    "setup": { "status": "in_progress" },
+    "planning": { "status": "pending" },
+    "design": { "status": "pending" },
+    "assets": { "status": "pending" },
+    "pages": { "status": "pending" },
+    "qa": { "status": "pending" },
+    "deploy": { "status": "pending" },
+    "content_engine": { "status": "pending" }
+  },
+  "current_phase": "setup",
+  "last_updated": "2026-01-28T00:50:00Z",
+  "notes": "UK pet services directory. Using env vars for API keys."
+}
