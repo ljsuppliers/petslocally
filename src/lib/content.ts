@@ -21,7 +21,7 @@ function calculateReadTime(content: string): string {
   return `${minutes} min read`;
 }
 
-export function getContentByType(type: 'guides' | 'locations'): ContentItem[] {
+export function getContentByType(type: 'guides' | 'locations' | 'blog' | 'news'): ContentItem[] {
   const typeDirectory = path.join(contentDirectory, type);
   
   if (!fs.existsSync(typeDirectory)) {
@@ -49,7 +49,7 @@ export function getContentByType(type: 'guides' | 'locations'): ContentItem[] {
   return items.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 }
 
-export function getContentBySlug(type: 'guides' | 'locations', slug: string): ContentItem | null {
+export function getContentBySlug(type: 'guides' | 'locations' | 'blog' | 'news', slug: string): ContentItem | null {
   const filePath = path.join(contentDirectory, type, `${slug}.md`);
   
   if (!fs.existsSync(filePath)) {
@@ -70,7 +70,7 @@ export function getContentBySlug(type: 'guides' | 'locations', slug: string): Co
   };
 }
 
-export function getAllSlugs(type: 'guides' | 'locations'): string[] {
+export function getAllSlugs(type: 'guides' | 'locations' | 'blog' | 'news'): string[] {
   const typeDirectory = path.join(contentDirectory, type);
   
   if (!fs.existsSync(typeDirectory)) {
