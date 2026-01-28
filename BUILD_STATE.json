@@ -2,16 +2,21 @@
   "site_id": "petslocally",
   "domain": "petslocally.co.uk",
   "phases": {
-    "setup": { "status": "in_progress" },
-    "planning": { "status": "pending" },
-    "design": { "status": "pending" },
-    "assets": { "status": "pending" },
-    "pages": { "status": "pending" },
-    "qa": { "status": "pending" },
-    "deploy": { "status": "pending" },
-    "content_engine": { "status": "pending" }
+    "setup": { "status": "complete", "completed_at": "2026-01-28T00:51:00Z" },
+    "planning": { "status": "complete", "completed_at": "2026-01-28T01:00:00Z" },
+    "design": { "status": "complete", "completed_at": "2026-01-28T01:02:00Z" },
+    "assets": { "status": "complete", "completed_at": "2026-01-28T01:08:00Z", "notes": "Downloaded Unsplash images for all articles" },
+    "pages": { "status": "complete", "completed_at": "2026-01-28T01:10:00Z" },
+    "qa": { "status": "complete", "completed_at": "2026-01-28T01:12:00Z" },
+    "deploy": { "status": "complete", "completed_at": "2026-01-28T01:15:00Z", "url": "https://petslocally.netlify.app" },
+    "content_engine": { "status": "complete", "completed_at": "2026-01-28T01:16:00Z" }
   },
-  "current_phase": "setup",
-  "last_updated": "2026-01-28T00:50:00Z",
-  "notes": "UK pet services directory. Using env vars for API keys."
+  "current_phase": "complete",
+  "last_updated": "2026-01-28T01:16:00Z",
+  "notes": "UK pet services directory. Content engine configured at ~/clawd/content-engine/config/sites/petslocally.yaml. Custom domain petslocally.co.uk needs DNS configuration in Netlify dashboard.",
+  "content": {
+    "locations": ["london", "manchester", "birmingham", "edinburgh", "bristol"],
+    "guides": ["how-to-choose-a-vet", "dog-grooming-guide", "first-time-pet-owner-tips", "choosing-the-right-pet-food"]
+  },
+  "keyword_research": "~/clawd/websites/petslocally/data/keyword-research.json"
 }

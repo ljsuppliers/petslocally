@@ -1,0 +1,36 @@
+{
+  "research_date": "2026-01-28",
+  "source": "DataForSEO API",
+  "location": "UK (2826)",
+  "high_priority": [
+    {"keyword": "dog groomers near me", "volume": 90500, "difficulty": 8},
+    {"keyword": "vets near me", "volume": 165000, "difficulty": 39},
+    {"keyword": "mobile dog groomers near me", "volume": 12100, "difficulty": 10},
+    {"keyword": "emergency vets near me", "volume": 22200, "difficulty": 38},
+    {"keyword": "dog groomers prices near me", "volume": 1900, "difficulty": 1},
+    {"keyword": "exotic vets near me", "volume": 5400, "difficulty": 0},
+    {"keyword": "bird vets near me", "volume": 5400, "difficulty": 6}
+  ],
+  "medium_priority": [
+    {"keyword": "pet sitting services uk", "volume": 880, "difficulty": 58},
+    {"keyword": "uk pet transportation services", "volume": 720, "difficulty": 35},
+    {"keyword": "dog groomers course near me", "volume": 4400, "difficulty": 0},
+    {"keyword": "dog groomers jobs near me", "volume": 2400, "difficulty": 6},
+    {"keyword": "mobile dog groomers prices near me", "volume": 1000, "difficulty": 7},
+    {"keyword": "good dog groomers near me", "volume": 1000, "difficulty": 22}
+  ],
+  "content_opportunities": [
+    "Dog grooming prices guide (1900 volume, difficulty 1)",
+    "Exotic pet vets directory (5400 volume, difficulty 0)",
+    "Bird vets directory (5400 volume, difficulty 6)",
+    "Mobile grooming services guide (12100 volume, difficulty 10)",
+    "Dog groomer training courses guide (4400 volume, difficulty 0)"
+  ],
+  "location_keywords": [
+    "pet services london",
+    "dog groomers manchester",
+    "vets birmingham",
+    "pet shops edinburgh",
+    "dog walkers bristol"
+  ]
+}
